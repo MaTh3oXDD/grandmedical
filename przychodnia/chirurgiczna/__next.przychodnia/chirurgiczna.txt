@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[63600,["/grandmedical/_next/static/chunks/a99d92a4456097cc.js","/grandmedical/_next/static/chunks/58928b78692ed341.js"],"default"]
 3:I[5715,["/grandmedical/_next/static/chunks/a99d92a4456097cc.js","/grandmedical/_next/static/chunks/58928b78692ed341.js"],"default"]
-0:{"buildId":"W3ModkXY8iqPtiImcGTb6","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"NucFXJNqybv6edMtUvvZ_","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
