@@ -15,7 +15,7 @@ export function AboutHero() {
       {/* Background */}
       <div className="absolute inset-0">
         <Image
-          src="/images/reception.jpg"
+          src="./images/reception.jpg"
           alt="Grand Medical Clinic"
           fill
           className="object-cover"

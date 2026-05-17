@@ -34,7 +34,7 @@ export function DishesSection() {
       type: "Neurologia",
       description: "Kompleksowa diagnostyka i leczenie chorób neurologicznych — od schorzeń naczyniowych mózgu po choroby demielinizacyjne. Konsultacje w zakresie epilepsji, bólów głowy, choroby Parkinsona i neuropatii.",
       zakres: "Neurologia kliniczna",
-      image: "/images/neurology.jpg",
+      image: "./images/neurology.jpg",
       info: ["Choroba Parkinsona", "Stwardnienie rozsiane", "Epilepsja", "Migrena i bóle głowy"]
     },
     {
@@ -44,7 +44,7 @@ export function DishesSection() {
       type: "Neurochirurgia",
       description: "Kwalifikacja i opieka pooperacyjna w zakresie neurochirurgii. Specjalizacja w leczeniu dyskopatii kręgosłupa, guzów układu nerwowego oraz pourazowych uszkodzeń rdzenia kręgowego.",
       zakres: "Neurochirurgia i kręgosłup",
-      image: "/images/consultation.jpg",
+      image: "./images/consultation.jpg",
       info: ["Dyskopatia lędźwiowa", "Guzy mózgu", "Urazy rdzenia", "Stenoza kanału kręgowego"]
     },
     {
@@ -54,7 +54,7 @@ export function DishesSection() {
       type: "Ortopedia",
       description: "Diagnozowanie i leczenie urazów oraz chorób narządu ruchu. Kwalifikacja do artroskopii i endoprotezoplastyki, a także kompleksowa rehabilitacja pooperacyjna.",
       zakres: "Ortopedia i traumatologia",
-      image: "/images/reception.jpg",
+      image: "./images/reception.jpg",
       info: ["Artroskopia stawów", "Endoprotezoplastyka", "Urazy sportowe", "Złamania i zwichnięcia"]
     }
   ]

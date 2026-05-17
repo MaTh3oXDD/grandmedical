@@ -11,7 +11,7 @@ const BLOG_POSTS = [
     categoryHref: "/rehabilitacja",
     title: "Nowoczesne metody rehabilitacji neurologicznej",
     excerpt: "Poznaj innowacyjne podejscie do rehabilitacji po udarze mozgu z wykorzystaniem biofeedbacku i platform interaktywnych.",
-    image: "/images/rehab.jpg",
+    image: "./images/rehab.jpg",
     date: "12 maja 2024",
   },
   {
@@ -20,7 +20,7 @@ const BLOG_POSTS = [
     categoryHref: "/szpital",
     title: "Chirurgia maloinwazyjna — korzysci dla pacjenta",
     excerpt: "Dlaczego zabiegi laparoskopowe oznaczaja szybszy powrot do zdrowia i mniejsze ryzyko powiklan.",
-    image: "/images/surgery.jpg",
+    image: "./images/surgery.jpg",
     date: "8 maja 2024",
   },
   {
@@ -29,7 +29,7 @@ const BLOG_POSTS = [
     categoryHref: "/przychodnia",
     title: "Kiedy udac sie do poradni leczenia bolu?",
     excerpt: "Przewlekly bol moze znaczaco obnizyc jakosc zycia. Dowiedz sie, jak mozemy Ci pomoc.",
-    image: "/images/consultation.jpg",
+    image: "./images/consultation.jpg",
     date: "2 maja 2024",
   },
 ]

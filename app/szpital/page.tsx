@@ -17,7 +17,7 @@ const HOSPITAL_DATA = {
   subtitle: "Opieka calodobowa",
   description:
     "Wieloprofilowy Oddzial Zabiegowy z dwoma salami operacyjnymi, Oddzial Rehabilitacji Neurologicznej oraz pelna opieka pooperacyjna. Zabiegi planowe i specjalistyczne wykonywane w ramach NFZ i komercyjnie.",
-  image: "/images/surgery.jpg",
+  image: "./images/surgery.jpg",
   services: [
     {
       title: "Chirurgia ogolna",
@@ -63,10 +63,10 @@ export default function SzpitalPage() {
       <DepartmentTeam
         title="Zespol szpitala"
         team={[
-          { name: "Dr Piotr Nowak", role: "Chirurg, Ordynator Oddzialu Zabiegowego", image: "/images/surgery.jpg" },
-          { name: "Dr Anna Lewandowska", role: "Anestezjolog", image: "/images/consultation.jpg" },
-          { name: "Dr Tomasz Kaczmarek", role: "Neurochirurg", image: "/images/neurology.jpg" },
-          { name: "Mgr Ewa Dabrowska", role: "Pielegniarka oddzialowa", image: "/images/reception.jpg" },
+          { name: "Dr Piotr Nowak", role: "Chirurg, Ordynator Oddzialu Zabiegowego", image: "./images/surgery.jpg" },
+          { name: "Dr Anna Lewandowska", role: "Anestezjolog", image: "./images/consultation.jpg" },
+          { name: "Dr Tomasz Kaczmarek", role: "Neurochirurg", image: "./images/neurology.jpg" },
+          { name: "Mgr Ewa Dabrowska", role: "Pielegniarka oddzialowa", image: "./images/reception.jpg" },
         ]}
       />
 

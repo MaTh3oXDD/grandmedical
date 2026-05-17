@@ -18,8 +18,8 @@ export default function RehabilitacyjnaPage() {
   ]
 
   const team = [
-    { name: "Mgr Katarzyna Nowak", role: "Fizjoterapeuta", image: "/images/reception.jpg" },
-    { name: "Mgr Piotr Wolski", role: "Fizjoterapeuta", image: "/images/consultation.jpg" },
+    { name: "Mgr Katarzyna Nowak", role: "Fizjoterapeuta", image: "./images/reception.jpg" },
+    { name: "Mgr Piotr Wolski", role: "Fizjoterapeuta", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function RehabilitacyjnaPage() {
         title="Poradnia Rehabilitacyjna"
         subtitle="Rehabilitacja i fizjoterapia"
         description="Indywidualne programy rehabilitacyjne, zajecia i terapia manualna." 
-        image="/images/reception.jpg"
+        image="./images/reception.jpg"
         features={["Fizjoterapia", "Terapia manualna", "Programy powrotu do sprawnosci" ]}
       />
 

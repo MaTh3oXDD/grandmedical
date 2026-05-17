@@ -22,7 +22,7 @@ export default function ChirurgiaOrtopedycznaPage() {
         ]}
         title="Chirurgia ortopedyczna"
         description="Specjalizujemy sie w leczeniu operacyjnym schorzen i urazow narzadu ruchu. Wykonujemy endoprotezoplastyke, artroskopie i rekonstrukcje wiezadel."
-        image="/images/surgery.jpg"
+        image="./images/surgery.jpg"
       />
       <SubpageContent
         sections={[
@@ -51,9 +51,9 @@ export default function ChirurgiaOrtopedycznaPage() {
       />
       <SubpageTeam
         team={[
-          { name: "Dr Marek Jankowski", role: "Ordynator, Ortopeda", image: "/images/surgery.jpg" },
-          { name: "Dr Karolina Maj", role: "Ortopeda, spec. artroskopii", image: "/images/consultation.jpg" },
-          { name: "Mgr Tomasz Adamski", role: "Fizjoterapeuta", image: "/images/rehab.jpg" },
+          { name: "Dr Marek Jankowski", role: "Ordynator, Ortopeda", image: "./images/surgery.jpg" },
+          { name: "Dr Karolina Maj", role: "Ortopeda, spec. artroskopii", image: "./images/consultation.jpg" },
+          { name: "Mgr Tomasz Adamski", role: "Fizjoterapeuta", image: "./images/rehab.jpg" },
         ]}
       />
       <SubpageBlog category="Ortopedia" parentCategory="szpital" />

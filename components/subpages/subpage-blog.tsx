@@ -29,13 +29,13 @@ export function SubpageBlog({ category, parentCategory }: SubpageBlogProps) {
       title: `Najnowsze osiagniecia w ${category.toLowerCase()}`,
       excerpt: "Poznaj nowoczesne metody i technologie stosowane w naszej placowce.",
       date: "15 maja 2024",
-      image: "/images/surgery.jpg",
+      image: "./images/surgery.jpg",
     },
     {
       title: `Jak przygotowac sie do wizyty`,
       excerpt: "Praktyczne wskazowki dla pacjentow przed pierwsza wizyta.",
       date: "10 maja 2024",
-      image: "/images/consultation.jpg",
+      image: "./images/consultation.jpg",
     },
   ]
 

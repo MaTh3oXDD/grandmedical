@@ -18,8 +18,8 @@ export default function LeczenieBoluPage() {
   ]
 
   const team = [
-    { name: "Dr Klaudia Nowicka", role: "Specjalista leczenia bolu", image: "/images/consultation.jpg" },
-    { name: "Dr Lukasz Malec", role: "Anestezjolog", image: "/images/consultation.jpg" },
+    { name: "Dr Klaudia Nowicka", role: "Specjalista leczenia bolu", image: "./images/consultation.jpg" },
+    { name: "Dr Lukasz Malec", role: "Anestezjolog", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function LeczenieBoluPage() {
         title="Poradnia Leczenia Bólu"
         subtitle="Leczenie i ulga"
         description="Indywidualne programy leczenia bolu przewleklego — farmakoterapia, blokady i rehabilitacja." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["Ocena bolu", "Blokady", "Terapia" ]}
       />
 

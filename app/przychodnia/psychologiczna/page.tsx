@@ -18,8 +18,8 @@ export default function PsychologicznaPage() {
   ]
 
   const team = [
-    { name: "Mgr Joanna Kowal", role: "Psycholog", image: "/images/consultation.jpg" },
-    { name: "Mgr Tomasz Baranski", role: "Psychoterapeuta", image: "/images/consultation.jpg" },
+    { name: "Mgr Joanna Kowal", role: "Psycholog", image: "./images/consultation.jpg" },
+    { name: "Mgr Tomasz Baranski", role: "Psychoterapeuta", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function PsychologicznaPage() {
         title="Poradnia Psychologiczna"
         subtitle="Wsparcie psychologiczne"
         description="Konsultacje, terapia i wsparcie psychologiczne dla doroslych i mlodziezy." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["Konsultacje", "Terapia indywidualna", "Terapia grupowa" ]}
       />
 

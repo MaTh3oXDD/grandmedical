@@ -18,8 +18,8 @@ export default function OrtopedycznaPage() {
   ]
 
   const team = [
-    { name: "Dr Pawel Zielinski", role: "Ortopeda", image: "/images/consultation.jpg" },
-    { name: "Dr Ewa Kowalczyk", role: "Ortopeda", image: "/images/consultation.jpg" },
+    { name: "Dr Pawel Zielinski", role: "Ortopeda", image: "./images/consultation.jpg" },
+    { name: "Dr Ewa Kowalczyk", role: "Ortopeda", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function OrtopedycznaPage() {
         title="Poradnia Ortopedyczna"
         subtitle="Opieka nad ukladem ruchu"
         description="Diagnoza i leczenie urazow, przewleklych schorzen oraz kwalifikacje do zabiegow." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["Konsultacje", "USG", "Rehabilitacja" ]}
       />
 

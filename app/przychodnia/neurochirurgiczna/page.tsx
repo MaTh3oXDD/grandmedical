@@ -18,8 +18,8 @@ export default function NeurochirurgicznaPage() {
   ]
 
   const team = [
-    { name: "Dr hab. Adam Kowalski", role: "Neurochirurg", image: "/images/neurology.jpg" },
-    { name: "Dr Anna Maj", role: "Neurochirurg", image: "/images/consultation.jpg" },
+    { name: "Dr hab. Adam Kowalski", role: "Neurochirurg", image: "./images/neurology.jpg" },
+    { name: "Dr Anna Maj", role: "Neurochirurg", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function NeurochirurgicznaPage() {
         title="Poradnia Neurochirurgiczna"
         subtitle="Zabiegi i konsultacje"
         description="Konsultacje kwalifikacyjne i drobne zabiegi neurochirurgiczne."
-        image="/images/neurology.jpg"
+        image="./images/neurology.jpg"
         features={["Konsultacje", "Diagnostyka", "Zabiegi planowe"]}
       />
 

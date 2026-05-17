@@ -35,7 +35,7 @@ export function HeroSection() {
         style={{ transform: `translateY(${scrollY * 0.3}px)` }}
       >
         <ImageReveal
-          src="/images/hero.jpg"
+          src="./images/hero.jpg"
           alt="Nowoczesny korytarz Grand Medical Clinic w Lodzi"
           priority
           className="object-cover object-center"

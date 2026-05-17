@@ -104,7 +104,7 @@ export function AboutPreview() {
           >
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
-                src="/images/reception.jpg"
+                src="./images/reception.jpg"
                 alt="Grand Medical Clinic recepcja"
                 fill
                 className="object-cover"

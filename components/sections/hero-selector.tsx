@@ -18,7 +18,7 @@ const AREAS = [
       "Chirurgia ogolna i ortopedyczna",
       "Opieka 24h / 7 dni w tygodniu",
     ],
-    image: "/images/surgery.jpg",
+    image: "./images/surgery.jpg",
     href: "/szpital",
   },
   {
@@ -34,7 +34,7 @@ const AREAS = [
       "Biofeedback i GeniusCare",
       "Terapia po urazach i udarach",
     ],
-    image: "/images/rehab.jpg",
+    image: "./images/rehab.jpg",
     href: "/rehabilitacja",
   },
   {
@@ -50,7 +50,7 @@ const AREAS = [
       "Poradnia Leczenia Bolu",
       "Psycholog i diagnostyka",
     ],
-    image: "/images/consultation.jpg",
+    image: "./images/consultation.jpg",
     href: "/przychodnia",
   },
 ]

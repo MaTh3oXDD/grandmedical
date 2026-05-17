@@ -18,8 +18,8 @@ export default function NeurologicznaPage() {
   ]
 
   const team = [
-    { name: "Dr n. med. Marek Szymanski", role: "Neurolog", image: "/images/neurology.jpg" },
-    { name: "Dr Katarzyna Borkowska", role: "Neurolog", image: "/images/consultation.jpg" },
+    { name: "Dr n. med. Marek Szymanski", role: "Neurolog", image: "./images/neurology.jpg" },
+    { name: "Dr Katarzyna Borkowska", role: "Neurolog", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function NeurologicznaPage() {
         title="Poradnia Neurologiczna"
         subtitle="Diagnostyka i terapia"
         description="Kompleksowa opieka neurologiczna: konsultacje, diagnostyka i terapia." 
-        image="/images/neurology.jpg"
+        image="./images/neurology.jpg"
         features={["Konsultacje", "EEG", "Terapia" ]}
       />
 

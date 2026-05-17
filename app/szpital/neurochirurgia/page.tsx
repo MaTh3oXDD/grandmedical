@@ -22,7 +22,7 @@ export default function NeurochirurgiaPage() {
         ]}
         title="Neurochirurgia"
         description="Wykonujemy zabiegi na kregoslupie, leczenie dyskopati i przepuklin kregoslupa z wykorzystaniem technik mikrochirurgicznych."
-        image="/images/neurology.jpg"
+        image="./images/neurology.jpg"
       />
       <SubpageContent
         sections={[
@@ -51,9 +51,9 @@ export default function NeurochirurgiaPage() {
       />
       <SubpageTeam
         team={[
-          { name: "Dr Tomasz Kaczmarek", role: "Neurochirurg", image: "/images/neurology.jpg" },
-          { name: "Dr Agnieszka Pawlak", role: "Neurochirurg", image: "/images/consultation.jpg" },
-          { name: "Dr Robert Szymanski", role: "Neurolog konsultujacy", image: "/images/consultation.jpg" },
+          { name: "Dr Tomasz Kaczmarek", role: "Neurochirurg", image: "./images/neurology.jpg" },
+          { name: "Dr Agnieszka Pawlak", role: "Neurochirurg", image: "./images/consultation.jpg" },
+          { name: "Dr Robert Szymanski", role: "Neurolog konsultujacy", image: "./images/consultation.jpg" },
         ]}
       />
       <SubpageBlog category="Neurochirurgia" parentCategory="szpital" />

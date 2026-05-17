@@ -183,7 +183,7 @@ export function PhilosophySection() {
         >
           <div className="relative aspect-[21/9] overflow-hidden">
             <ImageReveal
-              src="/images/surgery.jpg"
+              src="./images/surgery.jpg"
               alt="Nowoczesna sala operacyjna Grand Medical Clinic"
               className="object-cover"
               sizes="(max-width: 1800px) 100vw, 1800px"

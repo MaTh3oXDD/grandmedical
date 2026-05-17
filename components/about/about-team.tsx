@@ -7,25 +7,25 @@ const TEAM_MEMBERS = [
   {
     name: "Dr n. med. Anna Kowalska",
     role: "Neurolog, Kierownik Poradni Neurologicznej",
-    image: "/images/consultation.jpg",
+    image: "./images/consultation.jpg",
     description: "Specjalistka neurologii z 15-letnim doswiadczeniem. Zajmuje sie diagnostyka i leczeniem chorob ukladu nerwowego.",
   },
   {
     name: "Dr Piotr Nowak",
     role: "Chirurg, Ordynator Oddzialu Zabiegowego",
-    image: "/images/surgery.jpg",
+    image: "./images/surgery.jpg",
     description: "Specjalista chirurgii ogolnej i laparoskopowej. Wykonuje zabiegi planowe i maloinwazyjne.",
   },
   {
     name: "Mgr Katarzyna Wisniawska",
     role: "Fizjoterapeuta, Kierownik Rehabilitacji",
-    image: "/images/rehab.jpg",
+    image: "./images/rehab.jpg",
     description: "Certyfikowana fizjoterapeutka specjalizujaca sie w rehabilitacji neurologicznej i ortopedycznej.",
   },
   {
     name: "Dr Marek Jankowski",
     role: "Ortopeda, Poradnia Ortopedyczna",
-    image: "/images/consultation.jpg",
+    image: "./images/consultation.jpg",
     description: "Specjalista ortopedii i traumatologii narzadu ruchu z wieloletnim doswiadczeniem klinicznym.",
   },
 ]

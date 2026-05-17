@@ -19,9 +19,9 @@ export default function PrzychodniaPage() {
   ]
 
   const team = [
-    { name: "dr n. med. Marek Szymanski", role: "Neurolog", image: "/images/neurology.jpg" },
-    { name: "dr Agnieszka Gorska", role: "Chirurg", image: "/images/consultation.jpg" },
-    { name: "mgr. Marta Polanska", role: "Specjalista leczenia bolu", image: "/images/consultation.jpg" },
+    { name: "dr n. med. Marek Szymanski", role: "Neurolog", image: "./images/neurology.jpg" },
+    { name: "dr Agnieszka Gorska", role: "Chirurg", image: "./images/consultation.jpg" },
+    { name: "mgr. Marta Polanska", role: "Specjalista leczenia bolu", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -31,7 +31,7 @@ export default function PrzychodniaPage() {
         title="Przychodnia"
         subtitle="Specjalistyczna diagnostyka"
         description="Siec poradni specjalistycznych — neurologia, ortopedia, leczenie bolu i diagnostyka." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["Poradnia neurologiczna", "Poradnia ortopedyczna", "Poradnia leczenia bolu"]}
       />
 

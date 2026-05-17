@@ -18,8 +18,8 @@ export default function DiagnostykaILeczeniaPage() {
   ]
 
   const team = [
-    { name: "Dr Anna Lis", role: "Radiolog", image: "/images/consultation.jpg" },
-    { name: "Dr Krzysztof Maj", role: "Diagnosta", image: "/images/consultation.jpg" },
+    { name: "Dr Anna Lis", role: "Radiolog", image: "./images/consultation.jpg" },
+    { name: "Dr Krzysztof Maj", role: "Diagnosta", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function DiagnostykaILeczeniaPage() {
         title="Diagnostyka i leczenie"
         subtitle="Badania i diagnostyka"
         description="Jedno miejsce dla badan obrazowych, laboratoryjnych i konsultacji specjalistycznych." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["USG", "RTG", "Badania laboratoryjne" ]}
       />
 

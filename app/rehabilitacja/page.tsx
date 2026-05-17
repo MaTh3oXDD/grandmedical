@@ -13,9 +13,9 @@ export default function RehabilitacjaPage() {
   ]
 
   const team = [
-    { name: "mgr. fizjoterapii Anna Zielinska", role: "Fizjoterapeuta neurologiczny", image: "/images/rehab.jpg" },
-    { name: "mgr. fizjoterapii Piotr Lewandowski", role: "Fizjoterapeuta ortopedyczny", image: "/images/rehab.jpg" },
-    { name: "dr n. med. Katarzyna Borkowska", role: "Koordynator rehabilitacji", image: "/images/consultation.jpg" },
+    { name: "mgr. fizjoterapii Anna Zielinska", role: "Fizjoterapeuta neurologiczny", image: "./images/rehab.jpg" },
+    { name: "mgr. fizjoterapii Piotr Lewandowski", role: "Fizjoterapeuta ortopedyczny", image: "./images/rehab.jpg" },
+    { name: "dr n. med. Katarzyna Borkowska", role: "Koordynator rehabilitacji", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -25,7 +25,7 @@ export default function RehabilitacjaPage() {
         title="Rehabilitacja"
         subtitle="Powrot do sprawnosci"
         description="Kompleksowa rehabilitacja neurologiczna i ortopedyczna — programy indywidualne i nowoczesne metody." 
-        image="/images/rehab.jpg"
+        image="./images/rehab.jpg"
         features={["Rehabilitacja neurologiczna", "Biofeedback i GeniusCare", "Programy indywidualne"]}
       />
 

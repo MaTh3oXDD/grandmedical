@@ -18,8 +18,8 @@ export default function UrologicznaPage() {
   ]
 
   const team = [
-    { name: "Dr Rafal Wroblewski", role: "Urolog", image: "/images/consultation.jpg" },
-    { name: "Dr Marta Sadowska", role: "Urolog", image: "/images/consultation.jpg" },
+    { name: "Dr Rafal Wroblewski", role: "Urolog", image: "./images/consultation.jpg" },
+    { name: "Dr Marta Sadowska", role: "Urolog", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function UrologicznaPage() {
         title="Poradnia Urologiczna"
         subtitle="Diagnostyka i leczenie"
         description="Kompleksowa opieka urologiczna: konsultacje, diagnostyka i procedury." 
-        image="/images/consultation.jpg"
+        image="./images/consultation.jpg"
         features={["Konsultacje", "USG", "Badania" ]}
       />
 

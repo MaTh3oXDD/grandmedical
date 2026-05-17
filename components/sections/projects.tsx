@@ -33,7 +33,7 @@ export function ProjectsSection() {
       location: "Snoqualmie Valley, WA",
       year: "2023",
       area: "4,200 sq ft",
-      image: "/images/project-1.jpg",
+      image: "./images/project-1.jpg",
       description: "A weekend sanctuary for a family of five, designed to frame views of the Cascade foothills while providing intimate spaces for rest and reconnection. The home's linear form follows the ridge, with living spaces opening to a protected courtyard.",
       awards: ["AIA Northwest Honor Award", "Dwell Design Award Finalist"]
     },
@@ -43,7 +43,7 @@ export function ProjectsSection() {
       location: "Bainbridge Island, WA", 
       year: "2022",
       area: "3,800 sq ft",
-      image: "/images/project-2.jpg",
+      image: "./images/project-2.jpg",
       description: "Perched on a bluff above Puget Sound, this residence celebrates the horizontal—long, low roof planes and bands of glazing that emphasize the endless water views. Native plantings blur the boundary between garden and surrounding forest.",
       awards: ["Western Living Design Award", "AIA Seattle Citation"]
     },
@@ -53,7 +53,7 @@ export function ProjectsSection() {
       location: "Woodinville, WA",
       year: "2021", 
       area: "5,100 sq ft",
-      image: "/images/project-3.jpg",
+      image: "./images/project-3.jpg",
       description: "Set within a second-growth Douglas fir forest, this home is organized around a double-height living space that brings the canopy inside. Cedar siding weathers to match the surrounding tree bark, embedding the house into its context.",
       awards: ["Residential Architect Design Award"]
     }

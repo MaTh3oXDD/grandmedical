@@ -125,7 +125,7 @@ export function ExperienceSection() {
               }}
             >
               <ImageReveal
-                src="/images/rehab.jpg"
+                src="./images/rehab.jpg"
                 alt="Nowoczesna sala rehabilitacji w Grand Medical Clinic"
                 className="object-cover"
                 sizes="(max-width: 1400px) 100vw, 1400px"

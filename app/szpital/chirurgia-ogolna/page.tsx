@@ -22,7 +22,7 @@ export default function ChirurgiaOgolnaPage() {
         ]}
         title="Chirurgia ogolna"
         description="Wykonujemy szeroki zakres zabiegow chirurgicznych — od operacji planowych po procedury maloinwazyjne z wykorzystaniem technik laparoskopowych."
-        image="/images/surgery.jpg"
+        image="./images/surgery.jpg"
       />
       <SubpageContent
         sections={[
@@ -51,9 +51,9 @@ export default function ChirurgiaOgolnaPage() {
       />
       <SubpageTeam
         team={[
-          { name: "Dr Piotr Nowak", role: "Ordynator, Chirurg ogolny", image: "/images/surgery.jpg" },
-          { name: "Dr Maria Kowalczyk", role: "Chirurg, specjalista laparoskopii", image: "/images/consultation.jpg" },
-          { name: "Dr Jakub Wisniewski", role: "Chirurg ogolny", image: "/images/consultation.jpg" },
+          { name: "Dr Piotr Nowak", role: "Ordynator, Chirurg ogolny", image: "./images/surgery.jpg" },
+          { name: "Dr Maria Kowalczyk", role: "Chirurg, specjalista laparoskopii", image: "./images/consultation.jpg" },
+          { name: "Dr Jakub Wisniewski", role: "Chirurg ogolny", image: "./images/consultation.jpg" },
         ]}
       />
       <SubpageBlog category="Chirurgia" parentCategory="szpital" />

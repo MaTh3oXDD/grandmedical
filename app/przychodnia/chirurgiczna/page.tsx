@@ -18,8 +18,8 @@ export default function ChirurgicznaPage() {
   ]
 
   const team = [
-    { name: "Dr Andrzej Gorski", role: "Chirurg", image: "/images/surgery.jpg" },
-    { name: "Dr Anna Malinowska", role: "Chirurg", image: "/images/consultation.jpg" },
+    { name: "Dr Andrzej Gorski", role: "Chirurg", image: "./images/surgery.jpg" },
+    { name: "Dr Anna Malinowska", role: "Chirurg", image: "./images/consultation.jpg" },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function ChirurgicznaPage() {
         title="Poradnia Chirurgiczna"
         subtitle="Wady postawy i zabiegi"
         description="Ocena wad postawy, kwalifikacje do zabiegow oraz konsultacje pooperacyjne." 
-        image="/images/surgery.jpg"
+        image="./images/surgery.jpg"
         features={["Konsultacje", "Kwalifikacje", "Opieka poszpitalna" ]}
       />
 

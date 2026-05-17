@@ -11,16 +11,16 @@ interface DepartmentBlogProps {
 
 const BLOG_POSTS_BY_CATEGORY: Record<string, { title: string; excerpt: string; date: string; image: string }[]> = {
   szpital: [
-    { title: "Chirurgia maloinwazyjna — korzysci dla pacjenta", excerpt: "Dlaczego zabiegi laparoskopowe oznaczaja szybszy powrot do zdrowia.", date: "8 maja 2024", image: "/images/surgery.jpg" },
-    { title: "Przygotowanie do zabiegu operacyjnego", excerpt: "Co warto wiedziec przed planowana operacja w naszym szpitalu.", date: "2 maja 2024", image: "/images/consultation.jpg" },
+    { title: "Chirurgia maloinwazyjna — korzysci dla pacjenta", excerpt: "Dlaczego zabiegi laparoskopowe oznaczaja szybszy powrot do zdrowia.", date: "8 maja 2024", image: "./images/surgery.jpg" },
+    { title: "Przygotowanie do zabiegu operacyjnego", excerpt: "Co warto wiedziec przed planowana operacja w naszym szpitalu.", date: "2 maja 2024", image: "./images/consultation.jpg" },
   ],
   rehabilitacja: [
-    { title: "Nowoczesne metody rehabilitacji neurologicznej", excerpt: "Poznaj innowacyjne podejscie do rehabilitacji po udarze mozgu.", date: "12 maja 2024", image: "/images/rehab.jpg" },
-    { title: "Rehabilitacja po endoprotezoplastyce", excerpt: "Jak wrocic do pelnej sprawnosci po wymianie stawu.", date: "5 maja 2024", image: "/images/rehab.jpg" },
+    { title: "Nowoczesne metody rehabilitacji neurologicznej", excerpt: "Poznaj innowacyjne podejscie do rehabilitacji po udarze mozgu.", date: "12 maja 2024", image: "./images/rehab.jpg" },
+    { title: "Rehabilitacja po endoprotezoplastyce", excerpt: "Jak wrocic do pelnej sprawnosci po wymianie stawu.", date: "5 maja 2024", image: "./images/rehab.jpg" },
   ],
   przychodnia: [
-    { title: "Kiedy udac sie do poradni leczenia bolu?", excerpt: "Przewlekly bol moze znaczaco obnizyc jakosc zycia.", date: "10 maja 2024", image: "/images/consultation.jpg" },
-    { title: "Diagnostyka neurologiczna — badania i mozliwosci", excerpt: "Przeglad badan dostepnych w poradni neurologicznej.", date: "1 maja 2024", image: "/images/neurology.jpg" },
+    { title: "Kiedy udac sie do poradni leczenia bolu?", excerpt: "Przewlekly bol moze znaczaco obnizyc jakosc zycia.", date: "10 maja 2024", image: "./images/consultation.jpg" },
+    { title: "Diagnostyka neurologiczna — badania i mozliwosci", excerpt: "Przeglad badan dostepnych w poradni neurologicznej.", date: "1 maja 2024", image: "./images/neurology.jpg" },
   ],
 }
 
