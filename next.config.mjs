@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/grand-medical-clinic',
-  assetPrefix: '/grand-medical-clinic',
+  basePath: '/grandmedical',
   images: {
     unoptimized: true,
   },
