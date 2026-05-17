@@ -148,6 +148,7 @@ export function HeroSelector() {
             <button
               key={area.id}
               type="button"
+              role="tab"
               onClick={() => handleSelect(index)}
               className="relative flex items-center gap-3 md:gap-4 px-5 md:px-10 py-5 text-left transition-all duration-300 group"
               aria-selected={active === index}
